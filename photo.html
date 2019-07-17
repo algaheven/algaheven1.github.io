@@ -14,6 +14,38 @@ body  {
   height: 175px;
   border-radius: 50%;
 }
+        .gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
         
 </style></head><body>
 
@@ -93,124 +125,63 @@ body  {
         </div>
         <!--   *** SIDEBAR END ***  -->
            
-<!--   *** PORTFOLIO ***-->
-        <div class="col-md-8 col-lg-9 content-column">
-          <div class="small-navbar d-flex d-md-none">
-            <h1 class="small-navbar-heading"> <a href="index.html">Creative Works</a></h1>
-          </div>
-          <div class="grid row" style="position: relative; height: 2012.21px;">
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 0px; top: 13.6px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/a4-paper.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-hover-text-header"> <a href="detail.html" class="tile-link">  </a>
-                  <h4>Name of the work 1</h4>
-                  <div class="box-masonry-desription">
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 245.328px; top: 13.6px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/business-card-26.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-text"> 
-                  <h4> <a href="detail.html">Name of the work 2</a></h4>
-                  <div class="box-masonry-desription">
-                    <p> When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 0px; top: 340.897px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/gravity-paper.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-text"> 
-                  <h4> <a href="detail.html">Name of the work 3</a></h4>
-                  <div class="box-masonry-desription">
-                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 245.328px; top: 461.6px;"> 
-              <div class="box-masonry"> 
-                <div class="box-masonry-text"> 
-                  <h4> <a href="detail.html">Item without image</a></h4>
-                  <div class="box-masonry-desription">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 0px; top: 750.225px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/business-card.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-hover-text-header"> 2
-                  <h4>Name of the work 5</h4>
-                  <div class="box-masonry-desription">
-                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 245.328px; top: 875.6px;"> 
-              <div class="box-masonry"> 
-                <div class="box-masonry-text"> 
-                  <h4> <a href="detail.html">Name of the work 6</a></h4>
-                  <div class="box-masonry-desription">
-                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 0px; top: 997.553px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/label-clothes.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-text"> 
-                  <h4> <a href="detail.html">Name of the work 7</a></h4>
-                  <div class="box-masonry-desription">
-                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 245.328px; top: 1069.6px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/ipad-air-2.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-text"> 
-                  <h4> <a href="detail.html">Name of the work 8</a></h4>
-                  <div class="box-masonry-desription">
-                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 0px; top: 1406.88px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/envelope-brand.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-text"> 
-                  <h4> <a href="detail.html">Item with image</a></h4>
-                  <div class="box-masonry-desription">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 245.328px; top: 1478.93px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/trifold.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-hover-text-header"> <a href="detail.html" class="tile-link">  </a>
-                  <h4>Item with image</h4>
-                  <div class="box-masonry-desription">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 grid-item" style="position: absolute; left: 245.328px; top: 1726.26px;"> 
-              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/paper-presentation.jpg" alt="" class="img-fluid"></a>
-                <div class="box-masonry-hover-text-header"> <a href="detail.html" class="tile-link">  </a>
-                  <h4>Item with image</h4>
-                  <div class="box-masonry-desription">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-md-12 d-flex justify-content-center mb-5">
+
+    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">All</button>
+    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Mountains</button>
+    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Sea</button>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="gallery" id="gallery">
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
         <!--   *** PORTFOLIO END ***-->
       </div>
     </div>
@@ -224,4 +195,18 @@ body  {
   <script src="https://d19m59y37dris4.cloudfront.net/creative/2-0-1/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="https://d19m59y37dris4.cloudfront.net/creative/2-0-1/vendor/masonry-layout/masonry.pkgd.min.js"></script>
   <script src="https://d19m59y37dris4.cloudfront.net/creative/2-0-1/js/front.js"></script>
+    <script>
+        $(function() {
+var selectedClass = "";
+$(".filter").click(function(){
+selectedClass = $(this).attr("data-rel");
+$("#gallery").fadeTo(100, 0.1);
+$("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+setTimeout(function() {
+$("."+selectedClass).fadeIn().addClass('animation');
+$("#gallery").fadeTo(300, 1);
+}, 300);
+});
+});
+        </script>
 </body></html>
